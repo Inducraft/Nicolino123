@@ -1,0 +1,74 @@
+body{
+    background-color: #0e0d0d;
+    color: #f8f2f2;
+}
+nav
+{
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 20px 5%;
+font-weight: bold;
+background-color: rgb(121, 118, 116);
+border-radius: 50px;
+} 
+ul
+{
+padding: 0;
+margin: 0;
+} 
+ul li
+{
+display: inline-block;
+padding: 0px 20px;
+}
+a
+{
+color: rgb(0, 0, 0);
+}
+a:hover
+{
+color: rgb(202, 202, 202);
+}
+
+img{
+    border-radius: 50px;
+}
+
+.custom-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.Perros1{
+    display: flex;
+    margin-left: 10%;
+    img{
+        border-color: #4CAF50;
+        height: 200px;
+    }    
+}
+
+.Perros2{
+    display: flex;
+    margin-left: 10%;
+    img{
+        border-color: #4CAF50;
+        height: 200px;
+    }
+}
+
+.card{
+    margin-left: 15%;
+    margin-top: 5%;
+}
+
+
